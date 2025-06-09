@@ -1,0 +1,51 @@
+![wpn_pkp_siber]
+>scopes	=	1p63
+
+![wpn_pkp_siber_kobra_hud]
+        aim_hud_offset_pos               = 0.009736, -0.025389, 0.088
+        aim_hud_offset_pos_16x9          = 0.009736, -0.025389, 0.088
+        aim_hud_offset_rot               = -0.002346, 0.00168, 0
+        aim_hud_offset_rot_16x9          = -0.002346, 0.00168, 0
+		
+![wpn_pkp_siber_ekp8_02_hud]
+        aim_hud_offset_pos               = 0.01114, -0.036742, 0.088
+        aim_hud_offset_pos_16x9          = 0.01114, -0.036742, 0.088
+        aim_hud_offset_rot               = -0.013158, 0.001015, 0
+        aim_hud_offset_rot_16x9          = -0.013158, 0.001015, 0
+		
+![wpn_pkp_siber_okp_hud]
+        aim_hud_offset_pos               = 0.012935, -0.018009, 0.088
+        aim_hud_offset_pos_16x9          = 0.012935, -0.018009, 0.088
+        aim_hud_offset_rot               = 0.000491, 0.000433, 0
+        aim_hud_offset_rot_16x9          = 0.000491, 0.000433, 0
+		
+![wpn_pkp_siber_1p76_hud]
+        aim_hud_offset_pos               = 0.013326, -0.01595, 0.088
+        aim_hud_offset_pos_16x9          = 0.013326, -0.01595, 0.088
+        aim_hud_offset_rot               = -8.9e-05, 0.001059, 0
+        aim_hud_offset_rot_16x9          = -8.9e-05, 0.001059, 0
+		
+;-----------------------------------------------------------------------Addons--------------------------------------------------------------------------
+[wpn_pkp_siber_1p63]:wpn_pkp_siber
+hud                                      = wpn_pkp_siber_1p63_hud
+
+1icon_layer                              = 1p63
+1icon_layer_x                            = 64
+1icon_layer_y                            = -2
+
+inv_weight                               = 9.100
+
+snd_reload              = weapons\pkp_young_prince\pkp_reload_scope
+snd_reload_empty        = weapons\pkp_young_prince\pkp_reload_empty_scope
+
+[wpn_pkp_siber_1p63_hud]:wpn_pkp_siber_hud
+item_visual                              = dynamics\weapons\wpn_pkp_siber\wpn_pkp_siber_1p63_hud.ogf
+
+anm_reload                  = wpn_hand_pkp_siber_reload_collim,           wpn_pkp_siber_reload_scope
+anm_reload_empty            = wpn_hand_pkp_siber_reload_empty_collim,     wpn_pkp_siber_reload_empty_scope
+anm_idle_sprint             = wpn_hand_pkp_siber_run,                    wpn_pkp_siber_run, 1.22
+
+        aim_hud_offset_pos               = 0.01109, -0.036965, 0.088
+        aim_hud_offset_pos_16x9          = 0.01109, -0.036965, 0.088
+        aim_hud_offset_rot               = -0.001774, 0.001479, 0
+        aim_hud_offset_rot_16x9          = -0.001774, 0.001479, 0
